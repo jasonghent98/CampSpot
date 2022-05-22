@@ -1,5 +1,2 @@
 
-This was my first full-stack application! This took me about 2 1/2 months to build and taught me a lot about how JavaScript works in tandem with HTML and CSS.
-I used bootstrap to simplify a lot of the css features, express.js to create backend endpoints, and implemented a basic non-relational database using
-MongoDB and Mongoose.js. User authentication was implemented using a third-party package, passport.js; Joi was used for basic schema validation. I also 
-learned CLI commands to install node packages and project dependencies.
+This took me about 2 1/2 months to build. I pulled from a lot of different technologies to this project for a range of features, including geomapping to locate campsites, local strategy for user auth with passport.js API; joi was used for basic schema validation to ensure accurate data was being persisted to data store. Middleware was used in a lot of my controllers to automate data flow and improve scalability. I used bootstrap to simplify a lot of the styling and EJS for the markup.
